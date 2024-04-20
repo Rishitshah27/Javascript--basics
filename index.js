@@ -236,7 +236,7 @@ console.log(b)
 //const first=document.querySelector('#hello')
 //console.log(first)
 //const a=document.createElement('h1').innerHTML='<h1>H1 tag</h1>'
-//first.append(a)
+//first.append(a),prepend,before,after
 //console.log(a)
 
 //const a=document.getElementById('btn')
@@ -258,5 +258,16 @@ form.addEventListener('submit',()=>{
         message.push('please enter name and password')
     }
 })*/
+
+// timeout and interval methods 
+// settimeout and setinterval
+
+//setTimeout(()=>{
+ //   console.log("hello");
+//},500)
+
+//setInterval(()=>{
+ //   console.log("king is back....");
+//},4000)
 
 
