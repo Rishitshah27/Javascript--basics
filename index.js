@@ -270,4 +270,14 @@ form.addEventListener('submit',()=>{
  //   console.log("king is back....");
 //},4000)
 
+const users=[
+    {name:'alice',age:25},
+    {name:'bob',age:30},
+    {name:'charlie',age:22},
+]
 
+const a=users.find((val)=>{
+    return val.name==='alice'
+})
+
+console.log(a)
