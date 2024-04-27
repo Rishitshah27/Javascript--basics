@@ -25,43 +25,43 @@ let employee={
 console.log(employee.firstName)
 console.log(employee["age"])*/
 
-/* types of operator
-1> arithmetic :+,-,/,--;
-2>comparison :==,===,!=;
-3>logical:&&,||;
-4>assignment:+=,-+; 
+// types of operator
+//1> arithmetic :+,-,/,--;
+//2>comparison :==,===,!=;
+//3>logical:&&,||;
+//4>assignment:+=,-+; 
 
-comparison:
-let n=9;
-let a="risk"
-let j=3
-let k=9
-console.log(n==a)
-console.log(a==n)
-console.log(n===a)
-console.log(n>j)
-console.log(j>n)
-console.log(n<=k)
+//comparison:
+//let n=9;
+//let a="risk"
+//let j=3
+//let k=9
+//console.log(n==a)
+//console.log(a==n)
+//console.log(n===a)
+//console.log(n>j)
+//console.log(j>n)
+//console.log(n<=k)
 
-logical:
-let a=10
-let b=20
-let c=30
-console.log(a>b && a>c)
-console.log(a>b || a<c)
+//logical:
+//let a=10
+//let b=20
+//let c=30
+//console.log(a>b && a>c)
+//console.log(a>b || a<c)
 
  
-  arithmetic:
-let b=20
-let c=4
-console.log(b++)
-console.log(c--)
+  //arithmetic:
+//let b=20
+//let c=4
+//console.log(b++)
+//console.log(c--)
 
- assignment:
-let x=4
-console.log(x+=5)
-console.log(x-=25)
-console.log(x/=4)
+ //assignment:
+//let x=4
+//console.log(x+=5)
+//console.log(x-=25)
+//console.log(x/=4)
 
 
 //for loop
@@ -70,43 +70,44 @@ console.log(x/=4)
 //for in:object
 //for of:string
 
-for(i=1;i<=10;i++){
-    console.log('promise',i)
-}
+//for(i=1;i<=10;i++){
+  //  console.log('promise',i)
+//}
 
 
-let a=1
-while(a<=5){
-    console.log('academy',a)
-    a++
-}
-let i=1
-do{
-    console.log('promise',i)
-    i++
-}while(i<=10)
+//let a=1
+//while(a<=5){
+  //  console.log('academy',a)
+   // a++
+//}
+
+//let i=1
+//do{
+  //  console.log('promise',i)
+    //i++
+//}while(i<=10)
 
 
-let a='javascript'
+//let a='javascript'
 
-for(let i of a){
-    console.log(i)
-}
+//for(let i of a){
+  //  console.log(i)
+//}
 
-let student={
-    firstName:'Risk',
-    roll:12,
-    div:'A',
-    bool:true,
-}
+//let student={
+  //  firstName:'Risk',
+    //roll:12,
+    //div:'A',
+    //bool:true,
+//}
 
-for(let i in student){
-    console.log(i)
-    console.log(student[i])
-}
+//for(let i in student){
+  //  console.log(i)
+   // console.log(student[i])
+//}
 
 
- ARRAY METHODS
+ /*ARRAY METHODS
  1>Join method
 const a=[1,2,3,4]
 const b=a.join('@')
@@ -130,20 +131,20 @@ console.log(b)
   5>unshift method(add element to beginning)
   const a=[1,2,3,4,5]
   a.unshift(123)
-  console.log(a) 
+  console.log(a)*/ 
 
-  6>concat,spread
-  const a=[1,2,3,4]
-  const b=[5,6,7,8]
-  const c=[9,10,11]
-  const d=a.concat(b,c)
-  console.log(d) 
+  //6>concat,spread
+  //const a=[1,2,3,4]
+  //const b=[5,6,7,8]
+  //const c=[9,10,11]
+  //const d=a.concat(b,c)
+  //console.log(d) 
 
- spread
-  const a=[1,2,3,4]
-  const b=[5,6,7,8]
-  const c=[...a,...b]  //spread operator
-  console.log(c) */
+ //spread
+ // const a=[1,2,3,4]
+  //const b=[5,6,7,8]
+ // const c=[...a,...b]  //spread operator
+ // console.log(c) 
 
 //7) Array loop methods
 
@@ -270,14 +271,43 @@ form.addEventListener('submit',()=>{
  //   console.log("king is back....");
 //},4000)
 
-const users=[
-    {name:'alice',age:25},
-    {name:'bob',age:30},
-    {name:'charlie',age:22},
-]
+//const users=[
+ //   {name:'alice',age:25},
+  //  {name:'bob',age:30},
+   // {name:'charlie',age:22},
+//]
 
-const a=users.find((val)=>{
-    return val.name==='alice'
-})
+//const a=users.find((val)=>{
+  //  return val.name==='alice'
+//})
 
-console.log(a)
+//console.log(a)
+
+//localStorage.setItem('id',45)
+//const a=localStorage.getItem('id')
+//console.log(a)
+
+//localStorage.removeItem('id')
+
+//JSON.stringify()=it used to convert object to JSON
+//JSON.parse()=it used to conver JSON to object
+
+//const students={
+  //  "name":"rishi"
+//}
+//const b=JSON.stringify(students)
+//localStorage.setItem('id',b)
+
+//const c=localStorage.getItem('id')
+//console.log(c)
+
+//const convert=JSON.parse(c)
+//console.log(convert)
+
+//console.log(Math.round(4.5))
+
+//console.log(Math.floor(4.9))
+
+//console.log(Math.pow(2,4))
+
+

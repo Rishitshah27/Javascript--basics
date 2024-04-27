@@ -40,6 +40,7 @@ const a5=[5,6,7,8]
 const a6=[...a4,...a5]
 console.log(a6)*/
 
+
 /*16>question
 const no=[1,2,3,4,5]
 no.forEach((val,index)=>{
@@ -261,11 +262,11 @@ const a=products.findIndex((val)=>{
 })
 console.log(a)*/
 
-const numbers = [1, 2, 3, 4, 5];
+/*const numbers = [1, 2, 3, 4, 5];
 const a=numbers.find((val,index)=>{
     return val[index]==5
 })
-console.log(a)
+console.log(a)*/
   
   
 
