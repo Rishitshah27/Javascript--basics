@@ -146,6 +146,21 @@ console.log(b)
  // const c=[...a,...b]  //spread operator
  // console.log(c) 
 
+ //splice
+ //const a=[1,2,3,4,5];
+ //a.splice(2,0,99) //(pos,values to be remove,value to add)
+ //console.log(a)
+
+ //slice
+ // const a=[1,2,3,4,5]
+ //a.slice(1,3)
+ //console.log(a)
+ 
+ //reduce
+//  const a=[1,2,3,4,5]
+// const b=a.reduce((a,b)=>a+b)  //3
+// console.log(b)
+
 //7) Array loop methods
 
 // a) forEach method
@@ -246,19 +261,27 @@ console.log(b)
   //  console.log('btn is clicked')
 //})
 
-/*const error=document.getElementById('error')
-const fname=document.getElementById('fname')
-const lname=document.getElementById('lname')
-const password=document.getElementById('password')
-const form=document.getElementById('form')
-const button=document.getElementById('btn')
-form.addEventListener('submit',()=>{
-    let message=[]
-    if(fname.value==' '|| password.value=='')
-    {
-        message.push('please enter name and password')
-    }
-})*/
+
+// const error=document.getElementById('error')
+// const fname=document.getElementById('fname')
+// const lname=document.getElementById('lname')
+// const password=document.getElementById('password')
+// const button=document.getElementById('btn')
+// button.addEventListener('onclick',()=>{
+//     let message=[]
+//     if(fname.value==' '||lname.value==''|| password.value=='')
+//     {
+//         message.push('please enter name,lname and password')
+//     }
+//     if(message.length>0)
+//     {
+//       error.innerHTML=message.join("<br/>");
+//     }
+//     else{
+//       error.innerHTML=""
+//     }
+    
+// }) 
 
 // timeout and interval methods 
 // settimeout and setinterval
@@ -289,8 +312,8 @@ form.addEventListener('submit',()=>{
 
 //localStorage.removeItem('id')
 
-//JSON.stringify()=it used to convert object to JSON
-//JSON.parse()=it used to conver JSON to object
+//JSON.stringify()=it used to convert object to JSON(string)
+//JSON.parse()=it used to convert JSON to object
 
 //const students={
   //  "name":"rishi"
@@ -305,9 +328,46 @@ form.addEventListener('submit',()=>{
 //console.log(convert)
 
 //console.log(Math.round(4.5))
-
 //console.log(Math.floor(4.9))
-
+//console.log(Math.ceil(4.1))
 //console.log(Math.pow(2,4))
+//console.log(Math.sqrt(25))
+//console.log((Math.random()*10).toFixed(2))
+
+
+// const error=document.getElementById('error');
+// const fname=document.getElementById('fname');
+// const password=document.getElementById('password');
+// const email=document.getElementById('email');
+// const button=document.getElementById('btn');
+
+// button.addEventListener('click',()=>{
+//   let message=[]
+//   if(fname.value==='')
+//   {
+//   message.push("please enter first name");
+// }
+// if(message.length>0)
+// {
+//    error.innerHTML=message
+// }
+
+// else{
+//   error.innerHTML=" "
+// }})
+
+
+// fetch
+
+// const getData=async()=>{
+//   const response=await fetch('https://jsonplaceholder.typicode.com/users');
+//   console.log(await response.json());
+//   };
+
+ // async await 
+// getData();
+// console.log('hello')
+
+
 
 

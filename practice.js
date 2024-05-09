@@ -268,5 +268,9 @@ const a=numbers.find((val,index)=>{
 })
 console.log(a)*/
   
+
+
+
+
   
 
